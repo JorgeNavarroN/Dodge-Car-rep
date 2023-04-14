@@ -1,3 +1,10 @@
+#
+#
+# Copyright 2023, Jorge Navarro, Derechos comerciales reservados.
+# Este obra está bajo una licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional.
+#
+#
+
 import sys
 import pygame
 import random
@@ -170,8 +177,10 @@ while running:
     
     
     pygame.time.delay(3)
-    pygame.draw.rect(ventana, (255, 43, 123), autoRival)
-    autoRival.move_ip(0, velocidad_autoRival)
+    if score >= 0:
+        pygame.draw.rect(ventana, (255, 43, 123), autoRival)
+        autoRival.move_ip(0, velocidad_autoRival)
+        
     if score >= 20:  
         pygame.draw.rect(ventana, (34, 12, 244), moto)
         moto.move_ip(0, velocidad_moto)
@@ -207,3 +216,11 @@ while running:
     pygame.display.flip()
     pygame.display.update()
     
+
+
+#
+#
+# Copyright 2023, Jorge Navarro, Derechos comerciales reservados.
+# Este obra está bajo una licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional.
+#
+#
