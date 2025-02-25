@@ -1,5 +1,5 @@
 # DodgeCar_rep
-Es un juego hecho en python usando la libreria pygame
+DodgeCar, un juego interactivo creado en Python utilizando la biblioteca Pygame. En este juego, los jugadores controlan un vehículo que debe esquivar otros vehículos en movimiento, poniendo a prueba sus reflejos y habilidades de coordinación.
 
 Código hecho por Jorge Navarro
 
